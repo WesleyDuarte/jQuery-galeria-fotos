@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.container{
+    margin: 40px auto;
+    max-width: 300px;
+}
+form{
+    display: flex;
+}
+
+form input{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100%;
+}
+
+form button {
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+ul{
+    width:100%
+}
+
+.feito{
+    text-decoration: line-through;
+}
